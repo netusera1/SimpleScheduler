@@ -10,7 +10,7 @@ arch:
   - amd64
   - armhf
   - armv7
-image: ghcr.io/netusera1/simplescheduler/{arch}
+#image: ghcr.io/netusera1/simplescheduler/{arch}
 init: false
 homeassistant_api: true
 ingress: true

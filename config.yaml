@@ -1,5 +1,5 @@
 ---
-version: "2.7"
+version: "2.9"
 name: Simple Scheduler
 description: Simple timer on weekly base
 slug: simplescheduler
@@ -10,7 +10,7 @@ arch:
   - amd64
   - armhf
   - armv7
-image: ghcr.io/arthurdent75/simplescheduler/{arch}
+#image: ghcr.io/netusera1/simplescheduler/{arch}
 init: false
 homeassistant_api: true
 ingress: true
